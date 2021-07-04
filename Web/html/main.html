@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학생관리시스템</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="crossfade">
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+    </div>
+    <div class="card">
+        <div class="EntryImage">
+            <div class="circle"></div>
+            <img src="../img/logo_transparent.png" alt="EntryImage">
+            <div class="innerCircle"></div>
+        </div>
+        <div class="info">
+            <h1 class="title">학생관리시스템</h1>
+            <h3 id="EntryTitle">Student Management System</h3>
+            <div class="sizes">
+                <button class="btn1" onclick="dbl_click('./main.html');"
+                    onmouseover="ClickTitle1('조회 / 수정으로 이동하기', 'EntryTitle');"
+                    onmouseout="ClickTitle1('Student Management System', 'EntryTitle');">조회 / 수정</button>
+                <button class="btn2" onclick="dbl_click('./main.html');"
+                    onmouseover="ClickTitle2('수강신청 / 신규등록으로 이동하기', 'EntryTitle');"
+                    onmouseout="ClickTitle1('Student Management System', 'EntryTitle');">수강신청 / 신규등록</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
