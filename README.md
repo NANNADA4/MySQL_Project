@@ -2,7 +2,4 @@
 
 MySQL 프로젝트 To-Do list
 
-- [ ] 학생, 과목 column에 학점 추가
-- [x] FlowChart 만들기
-- [x] Entry Page 만들기
-- [ ] Main Page 만들기
+<https://www.notion.so/nannada4/7e84d36247254560875e71df03bac12c?v=86bfa4a6e805449b9d2207257488c23e>
