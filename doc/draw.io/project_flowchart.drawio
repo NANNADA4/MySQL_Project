@@ -1,6 +1,6 @@
 <mxfile>
     <diagram id="5RFijWjTB-EmzCs7QgUo" name="페이지-1">
-        <mxGraphModel dx="3968" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="3582" dy="1285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -26,7 +26,7 @@
                         <mxPoint x="90" y="530" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 조회 / 수정&lt;br&gt;2. 수강신청/신규등록&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 조회 / 수정&lt;br&gt;2. 수강신청/신규등록&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="10" y="210" width="190" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="7" value="1. 조회" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6" target="10" edge="1">
@@ -39,7 +39,7 @@
                         <mxPoint x="405" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 조회&lt;br&gt;2. 수정&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 조회&lt;br&gt;2. 수정&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="210" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="10" target="13" edge="1">
@@ -47,7 +47,7 @@
                         <mxPoint x="880" y="280.14285714285734" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="10" value="&lt;font style=&quot;font-size: 15px&quot;&gt;조회 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 15px&quot;&gt;조회 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="600" y="240" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="14" value="2. 단체 조회" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="13" target="15" edge="1">
@@ -55,7 +55,7 @@
                         <mxPoint x="959.8571428571431" y="450" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 개인 조회&lt;br&gt;2. 단체 조회&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 개인 조회&lt;br&gt;2. 단체 조회&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="880" y="210" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="15" target="24" edge="1">
@@ -63,7 +63,7 @@
                         <mxPoint x="1161" y="480" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="880" y="440" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="1. 개인 조회" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="13" target="20" edge="1">
@@ -77,7 +77,7 @@
                         <mxPoint x="1120" y="80.14285714285711" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="&lt;span style=&quot;font-size: 15px&quot;&gt;이름 검색&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="20" value="&lt;span style=&quot;font-size: 15px&quot;&gt;이름 검색&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="880" y="40" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="24" target="28" edge="1">
@@ -89,7 +89,7 @@
                         <mxPoint x="1321" y="480" as="sourcePoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="24" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+                <mxCell id="24" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1161" y="410" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="26" target="28" edge="1">
@@ -100,19 +100,19 @@
                         <mxPoint x="1440" y="79.71428571428578" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="26" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+                <mxCell id="26" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1161" y="10" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="28" target="13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="28" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="1161" y="240" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="34" target="41" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수정 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="34" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수정 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="440" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="36" value="&lt;font style=&quot;font-size: 15px&quot;&gt;개인 리스트&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -124,7 +124,7 @@
                 <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="41" target="51" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="41" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="600" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="46" value="1. 리스트 제거" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="45" target="47" edge="1">
@@ -135,7 +135,7 @@
                 <mxCell id="95" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45" target="94" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 리스트 제거&lt;br&gt;2. 리스트 수정&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="45" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 리스트 제거&lt;br&gt;2. 리스트 수정&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="600" y="760" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="47" value="&lt;font style=&quot;font-size: 15px&quot;&gt;선택한 리스트 제거&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -150,7 +150,7 @@
                 <mxCell id="61" value="2. 신규등록" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="50" target="60" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 수강신청&lt;br&gt;2. 신규등록&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=1;" parent="1" vertex="1">
+                <mxCell id="50" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 수강신청&lt;br&gt;2. 신규등록&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="25" y="410" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="53" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="51" target="45" edge="1">
@@ -159,7 +159,7 @@
                 <mxCell id="56" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="51" target="54" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="51" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="760" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="83" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="54" target="41" edge="1">
@@ -170,53 +170,53 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="54" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="54" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="990" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="58" target="62" edge="1">
+                <mxCell id="103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58" target="102">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수강신청 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="58" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수강신청 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="25" y="600" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="60" target="71" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="&lt;span style=&quot;font-size: 15px&quot;&gt;신규등록 페이지&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="60" value="&lt;span style=&quot;font-size: 15px&quot;&gt;신규등록 페이지&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-240" y="440" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="62" target="65" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="&lt;span style=&quot;font-size: 15px&quot;&gt;학번 조건 검색&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="25" y="790" width="160" height="80" as="geometry"/>
+                <mxCell id="62" value="&lt;span style=&quot;font-size: 15px&quot;&gt;학번 조건 검색&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="990" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="64" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="65" target="67" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="-80" y="1260"/>
+                            <mxPoint x="-345" y="1460"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="85" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="65" target="69" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-160" y="990" width="160" height="140" as="geometry"/>
+                <mxCell id="65" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-425" y="1190" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="84" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="67" target="62" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="25" y="1220" width="160" height="80" as="geometry"/>
+                <mxCell id="67" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="-240" y="1420" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="69" value="&lt;span style=&quot;font-size: 15px&quot;&gt;졸업요건 리스트&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-                    <mxGeometry x="-350" y="1220" width="160" height="80" as="geometry"/>
+                    <mxGeometry x="-615" y="1420" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="71" target="75" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="71" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="71" value="&lt;font style=&quot;font-size: 15px&quot;&gt;과목 / 학과 / 교수&lt;br&gt;조건 검색&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-520" y="440" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="75" target="77" edge="1">
@@ -225,7 +225,7 @@
                 <mxCell id="92" value="1.YES" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="75" target="90" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="75" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-520" y="600" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="77" target="71" edge="1">
@@ -236,7 +236,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="77" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="77" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-520" y="830" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="88" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="82" target="87" edge="1">
@@ -245,7 +245,7 @@
                 <mxCell id="101" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="82" target="100" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="82" value="&lt;span style=&quot;font-size: 15px&quot;&gt;중복되는 리스트가 &lt;br&gt;존재하나요?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="82" value="&lt;span style=&quot;font-size: 15px&quot;&gt;중복되는 리스트가 &lt;br&gt;존재하나요?&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-760" y="800" width="160" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="89" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="87" target="71" edge="1">
@@ -255,19 +255,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="87" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="87" value="&lt;font style=&quot;font-size: 15px&quot;&gt;오류 페이지&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-1000" y="830" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="93" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="90" target="82" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="&lt;span style=&quot;font-size: 15px&quot;&gt;리스트에 추가할 &lt;br&gt;요소 입력&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="90" value="&lt;span style=&quot;font-size: 15px&quot;&gt;리스트에 추가할 &lt;br&gt;요소 입력&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-760" y="630" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="94" target="48" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="&lt;span style=&quot;font-size: 15px&quot;&gt;선택한 리스트 수정&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="94" value="&lt;span style=&quot;font-size: 15px&quot;&gt;선택한 리스트 수정&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="600" y="990" width="160" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="98" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수정된 리스트&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
@@ -276,8 +276,75 @@
                 <mxCell id="99" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="100" target="98" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="100" value="&lt;span style=&quot;font-size: 15px&quot;&gt;선택한 리스트 추가&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" parent="1" vertex="1">
+                <mxCell id="100" value="&lt;span style=&quot;font-size: 15px&quot;&gt;선택한 리스트 추가&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-760" y="990" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="1. 졸업요건 검색" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="102" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="2. 수강신청 하기" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="102" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&lt;font style=&quot;font-size: 15px&quot;&gt;1. 졸업요건 검색&lt;br&gt;2. 수강신청 하기&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="800" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="105" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="&lt;span style=&quot;font-size: 15px&quot;&gt;학생 검색&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="990" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="107" target="113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="&lt;font style=&quot;font-size: 15px&quot;&gt;수강신청 가능한 과목 리스트&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="1420" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="109" target="105">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-40" y="1260"/>
+                            <mxPoint x="-40" y="1030"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="112" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="109" target="107">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="&lt;font style=&quot;font-size: 15px&quot;&gt;검색 결과가&lt;br&gt;존재 하나요?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="1190" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="113" target="115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;span style=&quot;font-size: 15px&quot;&gt;수강 신청&amp;nbsp;&lt;br&gt;과목 선택&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="333" y="1420" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="115" target="113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="1. NO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="115" target="120">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="&lt;span style=&quot;font-size: 15px&quot;&gt;한 학기 학점이&lt;br&gt;초과 되었나요?&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="1390" width="160" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;span style=&quot;font-size: 15px&quot;&gt;학생이 수강신청한&lt;br&gt;과목 리스트&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="1161" y="1420" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="122" value="2. NO" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="120" target="113">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="960" y="1600"/>
+                            <mxPoint x="413" y="1600"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="123" value="1. YES" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="120" target="118">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="&lt;span style=&quot;font-size: 15px&quot;&gt;졸업요건필수과목이&lt;br&gt;신청이 되어있나요?&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="1390" width="160" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
