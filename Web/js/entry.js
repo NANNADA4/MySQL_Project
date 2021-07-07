@@ -2,7 +2,7 @@
 const card = document.querySelector(".card");
 const EntryImage = document.querySelector(".EntryImage img");
 const title = document.querySelector(".title");
-const EntryTitle = document.querySelector(".EntryTitle");
+const subtitle = document.querySelector(".subtitle");
 const LinkTo = document.querySelector(".LinkTo");
 
 card.addEventListener("mousemove", function (e) {
@@ -14,7 +14,7 @@ card.addEventListener("mousemove", function (e) {
 card.addEventListener("mouseenter", function (e) {
     card.style.transition = "none";
     title.style.transform = "translateZ(100px)";
-    EntryTitle.style.transform = "translateZ(70px)";
+    subtitle.style.transform = "translateZ(70px)";
     LinkTo.style.transform = "translateZ(50px)";
 });
 
@@ -22,7 +22,7 @@ card.addEventListener("mouseleave", function (e) {
     card.style.transition = "all 0.5s ease";
     card.style.transform = "rotateX(0deg) rotateY(0deg)";
     title.style.transform = "translateZ(0px)";
-    EntryTitle.style.transform = "translateZ(0px)";
+    subtitle.style.transform = "translateZ(0px)";
     LinkTo.style.transform = "translateZ(0px)";
 });
 
@@ -34,16 +34,6 @@ card.addEventListener("mouseleave", (e) => {
     EntryImage.style.transform = "rotateZ(0deg) translateZ(0px)";
 });
 
-function ClickTitle1(t, o) {
-    var o = document.getElementById(o);
-    o.innerHTML = t;
-}
-
-function ClickTitle2(t, o) {
-    var o = document.getElementById(o);
-    o.innerHTML = t;
-}
-
-function dbl_click(href) {
-    location.href = href;
+function ClickTitle(t) {
+    subtitle.innerHTML = t;
 }
