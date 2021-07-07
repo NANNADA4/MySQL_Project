@@ -139,13 +139,13 @@ body {
     transition: all 0.75s ease-out;
 }
 
-.sizes {
+.LinkTo {
     display: flex;
     justify-content: space-between;
     transition: all 0.75s ease-out;
 }
 
-.sizes button {
+.LinkTo button {
     padding: 0.5rem 2rem;
     background: none;
     border: none;
