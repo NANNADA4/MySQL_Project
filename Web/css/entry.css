@@ -153,11 +153,20 @@ body {
     border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
-    color: #585858;
+    color: #282a36;
 }
 
 .btn1:hover,
-.btn2:hover {
-    background: #585858;
-    color: white;
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+    background: #bd93f9;
+    color: #282a36;
+}
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    transition: all 0.5s ease;
 }
