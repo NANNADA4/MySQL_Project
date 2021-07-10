@@ -1,4 +1,3 @@
-// mouseenter시 EntryImage 회전
 const card = document.querySelector(".card");
 const EntryImage = document.querySelector(".EntryImage img");
 const title = document.querySelector(".title");
