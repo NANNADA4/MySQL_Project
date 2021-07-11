@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Nanum+Gothic&family=Jua&family=Poppins:wght@400;500&display=swap");
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.row {
+    padding: 30px 15% 10px 15%;
+    vertical-align: top;
+}
