@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">수정하기</a>
+                        <a class="nav-link active" aria-current="page" style="color: #ff79c6;">수정하기</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">|</a>
@@ -88,20 +88,55 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div class="card_Right text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">수정하기 안내사항</h5>
+            <div class="card text-dark bg-light mb-3 border-primary">
+                <h5 class=" card-header text-center">수정하기 안내사항</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title text-center">수정하기</h5>
+                    <hr>
+                    <p class="card-text">조건을 입력하여 변경을 원하는 부분을 선택하여 데이터를 수정할 수 있습니다.</p>
+                    <br>
+                    <h5 class="card-title text-center">수정 시 주의사항</h5>
+                    <hr>
+                    <p class="card-text">무분별한 데이터의 수정을 막기 위해 이름과 학번을 모두 적어주셔야 합니다.</p>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card_Left text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">조회하기</h5>
+            <div class="card text-dark bg-light mb-3 border-primary text-center">
+                <h5 class=" card-header">수정하기</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <form action="" method="GET" class="Form_modify">
+                        <label for="name">학생이름</label>
+                        <input type="text" name="name" id="name" placeholder="홍길동" required>
+                        <br><br>
+                        <label for="name">학생학번</label>
+                        <input type="number" name="stuNUM" id="stuNUM" placeholder="2019253000" required>
+                        <br><br>
+                        <label for="type">종류</label>
+                        <select name="type" id="type" required>
+                            <option value="stuNUM">학생의 학번</option>
+                            <option value="stuNUM">학생의 이름</option>
+                            <option value="stuADR">학생의 주소</option>
+                            <option value="stuPHONE" selected>학생의 전화번호</option>
+                        </select>
+                        <br><br>
+                        <label for="contents">수정내용</label>
+                        <input type="contents" name="contents" id="contents" placeholder="01012340000" required>
+                        <br><br>
+                        <button type="submit" class="btn btn-primary btn-sm">수정</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-card">
+        <div class="col-sm-">
+            <div class="card text-center text-dark bg-light border-secondary mb-3">
+                <div class="card-header">조회 결과</div>
+                <div class="card-body text-secondary">
+                    {조회결과 항목 출력}
+                    <!-- 조회 결과 항목 출력 -->
                 </div>
             </div>
         </div>
