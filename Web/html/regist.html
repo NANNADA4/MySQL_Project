@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">신규등록</a>
+                        <a class="nav-link active" aria-current="page" style="color: #ff79c6;">신규등록</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">|</a>
@@ -89,20 +89,92 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div class="card_Right text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">신규등록 안내사항</h5>
+            <div class="card text-dark bg-light border-primary mb-3">
+                <h5 class=" card-header text-center">신규등록 안내사항</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title text-center">학생 신규등록</h5>
+                    <hr>
+                    <p class="card-text">학생의 신규등록을 원하시면 모든 데이터를 입력해주시기 바랍니다</p>
+                    <h5 class="card-title text-center">교수 신규등록</h5>
+                    <hr>
+                    <p class="card-text">교수의 신규등록을 원하시면 모든 데이터를 입력해주시기 바랍니다</p>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card_Left text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">조회하기</h5>
+            <div class="card text-center text-dark bg-light border-primary mb-3">
+                <h5 class=" card-header">신규등록</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-addSTU-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-addSTU" type="button" role="tab" aria-controls="pills-addSTU"
+                                aria-selected="true">학생 신규등록</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-addPROFESSOR-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-addPROFESSOR" type="button" role="tab"
+                                aria-controls="pills-addPROFESSOR" aria-selected="false">교수 신규등록</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-addSTU" role="tabpanel"
+                            aria-labelledby="pills-addSTU-tab">
+                            <div class="regist-addSTU">
+                                <form action="" method="GET" class="Form_addSTU">
+                                    <label for="stuNUM">학생학번</label>
+                                    <input type="number" name="stuNUM" id="stuNUM" placeholder="2019253000" required>
+                                    <br><br>
+                                    <label for="stuNAME">학생이름</label>
+                                    <input type="text" name="stuNAME" id="stuNAME" placeholder="홍길동" required>
+                                    <br><br>
+                                    <label for="stuGRADE">학생학년</label>
+                                    <input type="number" name="stuGRADE" id="stuGRADE" placeholder="2" required>
+                                    <br><br>
+                                    <label for="departNUM">전공코드</label>
+                                    <input type="number" name="departNUM" id="departNUM" placeholder="253" required>
+                                    <br><br>
+                                    <label for="stuADR">학생주소</label>
+                                    <input type="text" name="stuADR" id="stuADR" placeholder="서울시 중구">
+                                    <br><br>
+                                    <label for="stuPHONE">전화번호</label>
+                                    <input type="number" name="stuPHONE" id="stuPHONE" placeholder="01012340000"
+                                        required>
+                                    <br><br>
+                                    <button type="submit" class="btn btn-primary btn-sm">학생 신규등록</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-addPROFESSOR" role="tabpanel"
+                            aria-labelledby="pills-addPROFESSOR-tab">
+                            <form action="" method="GET" class="Form_lookup_select">
+                                <label for="professorNUM">교수번호</label>
+                                <input type="number" name="professorNUM" id="professorNUM" placeholder="3810103"
+                                    required>
+                                <br><br>
+                                <label for="professorNAME">교수이름</label>
+                                <input type="text" name="professorNAME" id="professorNAME" placeholder="이정길" required>
+                                <br><br>
+                                <label for="professorNUM">전공코드</label>
+                                <input type="number" name="departNUM" id="departNUM" placeholder="101" required>
+                                <br><br>
+                                <button type="submit" class="btn btn-primary btn-sm">교수 신규등록</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-card">
+        <div class="col-sm-">
+            <div class="card text-center text-dark bg-light border-secondary mb-3">
+                <div class="card-header">조회 결과</div>
+                <div class="card-body text-secondary">
+                    {조회결과 항목 출력}
+                    <!-- 조회 결과 항목 출력 -->
                 </div>
             </div>
         </div>
