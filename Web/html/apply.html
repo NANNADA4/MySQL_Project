@@ -24,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">수강신청</a>
+                        <a class="nav-link active" aria-current="page" style="color: #ff79c6;">수강신청</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">|</a>
@@ -89,20 +89,111 @@
 
     <div class="row">
         <div class="col-sm-6">
-            <div class="card_Right text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">수강신청 안내사항</h5>
+            <div class="card text-dark bg-light border-primary mb-3">
+                <h5 class=" card-header text-center">수강신청 안내사항</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title text-center">졸업 요건 조회</h5>
+                    <hr>
+                    <p class="card-text">학생 이름을 입력하면 전공과 그 전공의 졸업요건을 조회할 수 있습니다</p>
+                    <br>
+                    <h5 class="card-title text-center">수강신청</h5>
+                    <hr>
+                    <p class="card-text">조건을 입력 후 수강을 원하는 과목을 선택하여 수강신청할 수 있습니다</p>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="card_Left text-center text-dark bg-light border-info mb-3">
-                <h5 class=" card-header">조회하기</h5>
+            <div class="card text-center text-dark bg-light mb-3 border-primary">
+                <h5 class=" card-header">수강신청</h5>
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-require" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">졸업 요건 조회</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-select" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">수강신청</button>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-require" role="tabpanel"
+                            aria-labelledby="pills-require-tab">
+                            <div class="lookup_div">
+                                <form action="" method="GET" class="Form_apply_require">
+                                    <label for="name">이름</label>
+                                    <input type="text" name="name" id="name" placeholder="홍길동" required>
+                                    <button type="submit" class="btn btn-primary btn-sm">조회</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-select" role="tabpanel" aria-labelledby="pills-select-tab">
+                            <form action="" method="GET" class="Form_apply_apply">
+                                <label for="name">학생이름</label>
+                                <input type="text" name="name" id="name" placeholder="홍길동" required>
+                                <br><br>
+                                <label for="stuNUM">학생학번</label>
+                                <input type="number" name="stuNUM" id="stuNUM" placeholder="2019253000" required>
+                                <br><br>
+                                <label for="name">학과</label>
+                                <select name="department" id="department" required>
+                                    <option value="101">국어국문학</option>
+                                    <option value="102">영어영문학</option>
+                                    <option value="103">역사문화학</option>
+                                    <option value="104">철학</option>
+                                    <option value="105">경영학</option>
+                                    <option value="106">경제학</option>
+                                    <option value="107">글로벌행정학</option>
+                                    <option value="108">국제관계학</option>
+                                    <option value="109">동아시아국제학부</option>
+                                    <option value="110">글로벌엘리트학부</option>
+                                    <option value="111">산업디자인학</option>
+                                    <option value="201">물리및공학물리학</option>
+                                    <option value="202">화학및의화학</option>
+                                    <option value="203">생명과학기술학부</option>
+                                    <option value="204">패키징및물류학</option>
+                                    <option value="205">환경에너지공학부</option>
+                                    <option value="301">소프트웨어학부</option>
+                                    <option value="302">데이터사이언스학부</option>
+                                    <option value="303">디지털헬스케어학부</option>
+                                    <option value="304">의공학부</option>
+                                    <option value="305">보건행정학부</option>
+                                    <option value="306">임상병리학과</option>
+                                    <option value="307">물리치료학과</option>
+                                    <option value="308">작업치료학과</option>
+                                </select>
+                                <br><br>
+                                <button type="submit" class="btn btn-primary btn-sm">조회</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="apply-result-card">
+        <div class="col-sm-">
+            <div class="card text-center text-dark bg-light border-warning mb-3">
+                <div class="card-header">조회 결과</div>
+                <div class="card-body text-secondary">
+                    {수강신청 과목 출력}
+                    <!-- 수강신청 과목 출력 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="result-card">
+        <div class="col-sm-">
+            <div class="card text-center text-dark bg-light border-secondary mb-3">
+                <div class="card-header">조회 결과</div>
+                <div class="card-body text-secondary">
+                    {조회결과 항목 출력}
+                    <!-- 조회 결과 항목 출력 -->
                 </div>
             </div>
         </div>

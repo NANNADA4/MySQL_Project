@@ -7,3 +7,17 @@ body {
     padding: 30px 15% 10px 15%;
     vertical-align: top;
 }
+
+.result-card,
+.apply-result-card {
+    padding: 0px 15% 10px 15%;
+}
+
+.navbar {
+    background-color: #282a36;
+    z-index: 2000;
+}
+
+.btn {
+    margin: -5px 0 0 0;
+}
