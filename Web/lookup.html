@@ -133,12 +133,12 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="pills-indv-tab" data-bs-toggle="pill"
                                 data-bs-target="#pills-indv" type="button" role="tab" aria-controls="pills-indv"
-                                aria-selected="true">개인 조회</button>
+                                aria-selected="true">학생 조회</button>
                         </li>
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-select" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">조건 조회</button>
+                                data-bs-target="#pills-prfessor" type="button" role="tab" aria-controls="pills-prfessor"
+                                aria-selected="false">교수진 조회</button>
                         </li>
                     </ul>
                     <hr>
@@ -153,10 +153,11 @@
                                 </form>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-select" role="tabpanel" aria-labelledby="pills-select-tab">
-                            <form action="" method="GET" class="Form_lookup_select">
+                        <div class="tab-pane fade" id="pills-prfessor" role="tabpanel"
+                            aria-labelledby="pills-prfessor-tab">
+                            <form action="" method="GET" class="Form_lookup_prfessor">
                                 <label for="name">학과</label>
-                                <select name="department" id="department">
+                                <select name="department" id="department" required>
                                     <option value="101">국어국문학</option>
                                     <option value="102">영어영문학</option>
                                     <option value="103">역사문화학</option>
@@ -182,6 +183,10 @@
                                     <option value="307">물리치료학과</option>
                                     <option value="308">작업치료학과</option>
                                 </select>
+                                <br><br>
+                                <label for="professorNAME">이름</label>
+                                <input type="text" name="professorNAME" id="professorNAME" placeholder="홍길동" required>
+                                <br><br>
                                 <button type="submit" class="btn btn-primary btn-sm">조회</button>
                             </form>
                         </div>
